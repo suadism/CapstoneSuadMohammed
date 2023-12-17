@@ -48,3 +48,18 @@ departments in Korea between October 2016 and September 2017. The dataset is sou
 | Mistriage                | 0: Correct / 1: Over triage / 2: Under triage                                                                                                          |
 
 
+# Project Organization
+
+1- Data exploration- Dataset will be explored to see if any trends emerge
+
+2- Data Cleaning -Data will be cleaned to prepare it for modelling
+
+3- Data Processing Data will be processed to optimize it for modelling
+
+4- Baseline Model - A baseline model will be created
+
+5- Development of evaluation Metrics
+
+6- Advancelled Modelling
+
+7- Evaluation of results
