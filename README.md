@@ -63,3 +63,11 @@ departments in Korea between October 2016 and September 2017. The dataset is sou
 6- Advancelled Modelling
 
 7- Evaluation of results
+
+
+# Advanced Modelling
+
+KNN, Logistic Regression , Decision Tree and gradient boosting was conducted and their accuracy and recall score was calculated
+
+# Model evaluation
+The gradient boosting model was the best performing model out of all the ones tested outputting an accuracy of 80% on the test data and a recall of 89% for the positive class. This is a good score for the tool we are building as it is more important that our model classifies an emergency patient correctly. The model is less accurate at predicting the non emergency class as our recall score for the non emergency was 68% . This can likely be improved by training our model with additional data. Altough a good recall score for positive class is a priority in our model it is still important that the non emergency patients are classified correctly so they can be referred to clinics/specialists and the ER resources can be focused on critically ill patients. Overall the patients chief complain is the most predictive of classification. After inputting new data into our model using widgets below, a combination of certain complaints and other vitals are indcitive of emergency patients such as chest pain and no injury and a row respiratory rate. 
